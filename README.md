@@ -1,19 +1,29 @@
-#CS50W Project 1
-Web Programming with Python and JavaScript
-https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/
-Use the app on Heroku
-https://book-reviews-cs50-project1.herokuapp.com/
+# CS50W Project 1 : Books
+
+## Web Programming with Python and JavaScript
+### https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/
+
+## Use the app on Heroku
+
+### https://book-reviews-cs50-project1.herokuapp.com/
+
+![](https://i.imgur.com/mB3cLV1.png)
 
 
+![](https://i.imgur.com/MgO93MJ.png)
 
 
+![](https://i.imgur.com/Zy7C3Oq.png)
 
+## Usage
 
-Usage
-Register
-Search books by name, author or ISBN
-Get info about a book and submit your own review!
-⚙️ Setup your own
+* Register
+* Search books by name, author or ISBN
+* Get info about a book and submit your own review!
+
+## :gear: Setup your own
+
+```bash
 # Clone repo
 $ git clone https://github.com/marcorichetta/cs50-project1.git
 
@@ -32,5 +42,9 @@ $ pip install -r requirements.txt
 $ export FLASK_APP = application.py # flask run
 $ export DATABASE_URL = Heroku Postgres DB URI
 $ export GOODREADS_KEY = Goodreads API Key. # More info: https://www.goodreads.com/api
-DB Schema
-Feel free to add your own improvements! DB
+```
+
+### DB Schema
+
+Feel free to add your own improvements!
+![DB](https://i.imgur.com/ii6nkNr.png)
