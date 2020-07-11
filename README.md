@@ -2,7 +2,7 @@
 ## CS50W Project 1: Books 
 #### for more info [course | CS50W | edx](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/)
 
-### Use the app on [Heroku](https://book-reviews-cs50-project1.herokuapp.com/)
+#### Use the app on [Heroku](https://book-reviews-cs50-project1.herokuapp.com/)
 
 #### Objective
 * Become more comfortable with Python.
