@@ -25,30 +25,27 @@
     * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" width="20" height="20" valign="middle"> [Python](https://www.python.org/downloads/)
     * <img src="https://banner2.cleanpng.com/20190124/rs/kisspng-python-selenium-programming-language-computer-icon-pip-5c4a4a7ca92d33.171618491548372604693.jpg" width="27" height="21" valign="middle"> [pip](https://pip.pypa.io/en/stable/installing/) (install it)
 
-## :gear: Setup your own
+## :gear: CMD Terminal
 
-```bash
-# Clone repo
-$ git clone https://github.com/marcorichetta/cs50-project1.git
+```cmd
+# Navigate into project1 location 
+# Git Cloning
+> git clone https://github.com/marcorichetta/cs50-project1.git
+#change directory
+> cd cs50-project1
 
-$ cd cs50-project1
+# Install necessary packages
+> pip3 install -r requirements.txt
 
-# Create a virtualenv (Optional but reccomended)
-$ python3 -m venv myvirtualenv
+# Set the environment variable
+> set FLASK_APP = application.py
+> set FLASK_DEBUG = 1
+> set DATABASE_URL = URL of DATABASE
+> set GOODREADS_KEY = Goodreads API Key
 
-# Activate the virtualenv
-$ source myvirtualenv/bin/activate (Linux)
-
-# Install all dependencies
-$ pip install -r requirements.txt
-
-# ENV Variables
-$ export FLASK_APP = application.py # flask run
-$ export DATABASE_URL = Heroku Postgres DB URI
-$ export GOODREADS_KEY = Goodreads API Key. # More info: https://www.goodreads.com/api
+#run flask
+>flask run
 ```
 
-### DB Schema
-
-Feel free to add your own improvements!
-![DB](https://i.imgur.com/ii6nkNr.png)
+## DB Schema
+![DB](https://i.ibb.co/0tSXJ82/dbschema.png)
